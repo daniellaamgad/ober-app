@@ -45,6 +45,7 @@ export default function HomeScreen() {
       <Pressable style={styles.button} onPress={chooseRide}>
         <Text style={styles.buttonText}>Choose a Ride</Text>
       </Pressable>
+       <Text style={styles.footer}>Made Daniella</Text>
     </View>
   );
 }
@@ -76,4 +77,5 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   buttonText: { color: "#fff", fontSize: 16, fontWeight: "bold" },
+ footer: { color: '#666', fontSize: 12 },
 });
